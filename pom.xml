@@ -61,7 +61,7 @@
                         <id>default-cli</id>
                         <configuration>
                             <mainClass>
-                                com.example.silenceinterruptedbysounds/com.example.silenceinterruptedbysounds.HelloApplication
+                                com.example.silenceinterruptedbysounds/com.example.silenceinterruptedbysounds.sinsoApplication
                             </mainClass>
                             <launcher>app</launcher>
                             <jlinkZipName>app</jlinkZipName>

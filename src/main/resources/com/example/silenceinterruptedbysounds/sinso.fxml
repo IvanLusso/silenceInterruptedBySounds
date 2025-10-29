@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="80.0" prefWidth="260.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.silenceinterruptedbysounds.sinsoController">
+    <Label layoutX="80.0" layoutY="5.0" prefHeight="18.0" prefWidth="50.0" text="Volume" />
+    <Button fx:id="playStopButton" layoutX="200.0" layoutY="14.0" onAction="#toggleExecution" text="Play" />
+    <Slider fx:id="volumeSlider" blockIncrement="1.0" layoutX="16.0" layoutY="19.0" onDragDetected="#volumeChanged" prefHeight="16.0" prefWidth="177.0" snapToTicks="true" />
+    <TextField fx:id="dirForm" layoutX="16.0" layoutY="46.0" onAction="#dirSubmitted" prefHeight="26.0" prefWidth="228.0" promptText="path files' directory" />
+</AnchorPane>
